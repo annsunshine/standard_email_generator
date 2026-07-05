@@ -66,7 +66,7 @@ Since a Switch executes exactly one Case per run, only one of the five `Compose`
 
 The flow was tested against all four email types using **synthetic scenarios and fictional recipient addresses**. Each test produced a correctly formatted email with dynamically inserted recipient and scenario data:
 
-![Test results — 4 emails in inbox, all fake data](Confirmation.png) (Query.png) (Escalation.png) (Status.png) (Default.png)
+![Test results — 4 emails in inbox, all fake data](Confirmation.png) ![Test results — 4 emails in inbox, all fake data](Query.png) ![Test results — 4 emails in inbox, all fake data](Escalation.png) ![Test results — 4 emails in inbox, all fake data](Status.png) (![Test results — 4 emails in inbox, all fake data](Default.png)
 
 Example test inputs (all fictional):
 - `Confirmation` → "Customer query for John Smith (fake)" → `client@fake.test`
